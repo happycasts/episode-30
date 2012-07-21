@@ -1,3 +1,9 @@
+1. show people the .tgz and .vimball sucks
+1. need to explain how to put everything into .vim/, and make a git repo
+   
+    mv .vimrc .vim/vimrc
+    ln -s .vim/vimrc .vimrc
+
 1. bundler-like install, based on github, ruby, yml
 
     http://log4d.com/2012/04/vundle/
@@ -5,3 +11,12 @@
 
 1. have to talk about git submodule
 1. pathogen.vim is prefered
+1. delete a plugin
+   delete what's in .vim/bundle, is this all?
+   how is the stuff with Helptags?
+1. :set rt
+1. do I really need `git submodule`? Seems it is a overkill.
+1. so all I want is:
+   1. clean install
+   1. clean uninstall
+   1. easy upgrade
