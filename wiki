@@ -1,0 +1,7 @@
+1. bundler-like install, based on github, ruby, yml
+
+    http://log4d.com/2012/04/vundle/
+    https://github.com/hariton/pathogenized
+
+1. have to talk about git submodule
+1. pathogen.vim is prefered
