@@ -14,6 +14,10 @@
 1. delete a plugin
    delete what's in .vim/bundle, is this all?
    how is the stuff with Helptags?
+   A: also deleted, cause it is in .vim/bundle/xxx/doc/tags, really nice
+
+   SO, let's compare how to uninstall a plugin, with and without pathogen!
+
 1. :set rt
 1. do I really need `git submodule`? Seems it is a overkill.
 1. so all I want is:
