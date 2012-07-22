@@ -20,7 +20,27 @@
 
 1. :set rt
 1. do I really need `git submodule`? Seems it is a overkill.
+   1. then do remember delete .git/ in every each plugin
+   1. also note many has .gitignore .gitmodules Rakefile Makefile ... in it
+      so I think its OK, not to delete them
+
 1. so all I want is:
    1. clean install
    1. clean uninstall
    1. easy upgrade
+1. delete a submodule
+   sometimes you clone a plugin into your .vim, then you forget to delete the .git/ dir in the plugin, and it become a submodule.
+   1. rm -rf bundle/xxx 
+      and you can delete it
+   1. then add the xxx/ with .git deleted
+
+1. biggest problem of vimscript plugins is that its in different places and format: vim.org, github... vimball, zip, gitrepo
+   One day if we have one central location where all scripts is stored in the same format, magic will happen
+
+   http://vim-scripts.org/
+
+   is a such effort, and once its done, beautiful things like vundle can be made
+
+1. show people the about page of vim-scripts.org : http://vim-scripts.org/index.html
+   then they know all they learn in this video about pathogen isn't a waste, even they later go to things like vundle
+
