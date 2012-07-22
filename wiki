@@ -44,3 +44,5 @@
 1. show people the about page of vim-scripts.org : http://vim-scripts.org/index.html
    then they know all they learn in this video about pathogen isn't a waste, even they later go to things like vundle
 
+1. problem with vim-scripts.org is that the plugin hosted there is not maintained by the author himself, thus usually a time lag.
+   check 'tpope/vim-rails', and the 'rails.vim' on vim-script.org
